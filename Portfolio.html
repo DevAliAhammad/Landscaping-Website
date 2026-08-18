@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body class="bg-[#faf9f6] text-[#1a1a1a] antialiased overflow-x-hidden">
+    <!-- Header -->
+    <header id="header" class="fixed top-0 z-50 w-full transition-all duration-300 bg-white/90 backdrop-blur-md border-b border-gray-100 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex-shrink-0 flex items-center gap-2">
+                    <i class="fa-solid fa-leaf text-[#1b4d3e] text-2xl"></i>
+                    <a href="Index.html">
+                    <span class="text-xl font-bold tracking-tight text-[#1b4d3e]">LUXE<span class="font-light text-gray-400">LANDSCAPES</span></span></a>
+                </div>
+                <nav class="hidden md:flex space-x-8 items-center">
+                    <a href="Index.html" class="text-sm font-semibold text-gray-600 hover:text-[#1b4d3e]">Home</a>
+                    <a href="Services.html" class="text-sm font-semibold text-gray-600 hover:text-[#1b4d3e]">Services</a>
+                    <a href="Portfolio.html" class="text-sm font-semibold text-[#1b4d3e]">Portfolio</a>
+                    <a href="About.html" class="text-sm font-semibold text-gray-600 hover:text-[#1b4d3e]">About</a>
+                    <a href="Contact.html" class="bg-[#1b4d3e] text-white px-6 py-2.5 rounded-full text-sm font-bold transition-all hover:bg-[#143a2e] shadow-lg shadow-emerald-900/10">Get a Free Quote</a>
+                </nav>
+                <div class="md:hidden flex items-center">
+                    <button class="text-gray-600 focus:outline-none">
+                        <i class="fa-solid fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Hero -->
+    <section class="pt-48 pb-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-3xl">
+                <h2 class="text-xs uppercase tracking-[0.3em] font-bold text-[#1b4d3e] mb-4">Our Portfolio</h2>
+                <h1 class="text-5xl lg:text-7xl font-bold text-[#0f172a] mb-8 leading-tight">Signature Outdoor Transformations</h1>
+                <p class="text-xl text-gray-600 leading-relaxed">Explore a curated selection of our recent landscape architecture and construction projects across metropolitan Perth.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Filters -->
+    <section class="pb-12 bg-white sticky top-20 z-40 border-b border-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center gap-4 overflow-x-auto no-scrollbar py-4">
+                <button class="px-6 py-2 rounded-full bg-[#1b4d3e] text-white text-xs font-bold uppercase tracking-widest transition-all">All Projects</button>
+                <button class="px-6 py-2 rounded-full bg-emerald-50 text-[#1b4d3e] text-xs font-bold uppercase tracking-widest hover:bg-[#1b4d3e] hover:text-white transition-all">Pool Landscaping</button>
+                <button class="px-6 py-2 rounded-full bg-emerald-50 text-[#1b4d3e] text-xs font-bold uppercase tracking-widest hover:bg-[#1b4d3e] hover:text-white transition-all">Garden Design</button>
+                <button class="px-6 py-2 rounded-full bg-emerald-50 text-[#1b4d3e] text-xs font-bold uppercase tracking-widest hover:bg-[#1b4d3e] hover:text-white transition-all">Hardscaping</button>
+                <button class="px-6 py-2 rounded-full bg-emerald-50 text-[#1b4d3e] text-xs font-bold uppercase tracking-widest hover:bg-[#1b4d3e] hover:text-white transition-all">Commercial</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Gallery -->
+    <section class="py-24 bg-[#faf9f6]">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <!-- Project 1 -->
+                <div class="project-card group cursor-pointer">
+                    <div class="relative aspect-[16/10] rounded-[2.5rem] overflow-hidden shadow-lg mb-8">
+                        <img class="w-full h-full object-cover transition-transform duration-700" src="https://storage.googleapis.com/uxpilot-auth.appspot.com/gen_ec0282cd6d_33be8a7b3360a72c.png" alt="luxury infinity pool with limestone paving and architectural native garden in cottesloe perth, ocean" />
+                        <div class="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-all"></div>
+                        <div class="absolute bottom-8 left-8 flex gap-3">
+                            <span class="px-4 py-1.5 rounded-full bg-white/90 backdrop-blur-md text-[10px] font-bold uppercase tracking-widest text-[#1b4d3e]">Pools</span>
+                            <span class="px-4 py-1.5 rounded-full bg-white/90 backdrop-blur-md text-[10px] font-bold uppercase tracking-widest text-[#1b4d3e]">Masonry</span>
+                        </div>
+                    </div>
+                    <div class="flex justify-between items-start px-4">
+                        <div>
+                            <h3 class="text-2xl font-bold text-[#0f172a] mb-2">The Cottesloe Estate</h3>
+                            <p class="text-sm text-gray-500">A coastal sanctuary focused on privacy and entertainment.</p>
+                        </div>
+                        <div class="w-12 h-12 rounded-full border border-gray-200 flex items-center justify-center text-[#1b4d3e] group-hover:bg-[#1b4d3e] group-hover:text-white transition-all">
+                            <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card group cursor-pointer">
+                    <div class="relative aspect-[16/10] rounded-[2.5rem] overflow-hidden shadow-lg mb-8">
+                        <img class="w-full h-full object-cover transition-transform duration-700" src="https://storage.googleapis.com/uxpilot-auth.appspot.com/gen_a54443dabc_46a2a82dce50048b.png" alt="modernist garden design with lush tropical planting, black timber fencing, and fire pit in perth sub" />
+                        <div class="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-all"></div>
+                        <div class="absolute bottom-8 left-8 flex gap-3">
+                            <span class="px-4 py-1.5 rounded-full bg-white/90 backdrop-blur-md text-[10px] font-bold uppercase tracking-widest text-[#1b4d3e]">Design</span>
+                            <span class="px-4 py-1.5 rounded-full bg-white/90 backdrop-blur-md text-[10px] font-bold uppercase tracking-widest text-[#1b4d3e]">Tropical</span>
+                        </div>
+                    </div>
+                    <div class="flex justify-between items-start px-4">
+                        <div>
+                            <h3 class="text-2xl font-bold text-[#0f172a] mb-2">Mount Lawley Retreat</h3>
+                            <p class="text-sm text-gray-500">Integrating heritage architecture with contemporary outdoor living.</p>
+                        </div>
+                        <div class="w-12 h-12 rounded-full border border-gray-200 flex items-center justify-center text-[#1b4d3e] group-hover:bg-[#1b4d3e] group-hover:text-white transition-all">
+                            <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card group cursor-pointer">
+                    <div class="relative aspect-[16/10] rounded-[2.5rem] overflow-hidden shadow-lg mb-8">
+                        <img class="w-full h-full object-cover transition-transform duration-700" src="https://storage.googleapis.com/uxpilot-auth.appspot.com/gen_1846ccfb2b_74718068e09044e9.png" alt="architectural timber deck with pergola and built-in outdoor kitchen, perth modern home design" />
+                        <div class="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-all"></div>
+                        <div class="absolute bottom-8 left-8 flex gap-3">
+                            <span class="px-4 py-1.5 rounded-full bg-white/90 backdrop-blur-md text-[10px] font-bold uppercase tracking-widest text-[#1b4d3e]">Carpentry</span>
+                            <span class="px-4 py-1.5 rounded-full bg-white/90 backdrop-blur-md text-[10px] font-bold uppercase tracking-widest text-[#1b4d3e]">Outdoor Kitchen</span>
+                        </div>
+                    </div>
+                    <div class="flex justify-between items-start px-4">
+                        <div>
+                            <h3 class="text-2xl font-bold text-[#0f172a] mb-2">South Perth Veranda</h3>
+                            <p class="text-sm text-gray-500">Creating a seamless indoor-outdoor transition for year-round use.</p>
+                        </div>
+                        <div class="w-12 h-12 rounded-full border border-gray-200 flex items-center justify-center text-[#1b4d3e] group-hover:bg-[#1b4d3e] group-hover:text-white transition-all">
+                            <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card group cursor-pointer">
+                    <div class="relative aspect-[16/10] rounded-[2.5rem] overflow-hidden shadow-lg mb-8">
+                        <img class="w-full h-full object-cover transition-transform duration-700" src="https://storage.googleapis.com/uxpilot-auth.appspot.com/gen_f805a6a878_b5d7ff81814d4146.png" alt="waterwise perth garden with native shrubs, decorative gravel paths and limestone boulders, sustainab" />
+                        <div class="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-all"></div>
+                        <div class="absolute bottom-8 left-8 flex gap-3">
+                            <span class="px-4 py-1.5 rounded-full bg-white/90 backdrop-blur-md text-[10px] font-bold uppercase tracking-widest text-[#1b4d3e]">Sustainability</span>
+                            <span class="px-4 py-1.5 rounded-full bg-white/90 backdrop-blur-md text-[10px] font-bold uppercase tracking-widest text-[#1b4d3e]">Native</span>
+                        </div>
+                    </div>
+                    <div class="flex justify-between items-start px-4">
+                        <div>
+                            <h3 class="text-2xl font-bold text-[#0f172a] mb-2">City Beach Botanical</h3>
+                            <p class="text-sm text-gray-500">A low-maintenance, waterwise garden that thrives in the sand.</p>
+                        </div>
+                        <div class="w-12 h-12 rounded-full border border-gray-200 flex items-center justify-center text-[#1b4d3e] group-hover:bg-[#1b4d3e] group-hover:text-white transition-all">
+                            <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-20 text-center">
+                <button class="bg-[#1b4d3e] text-white px-10 py-4 rounded-full text-sm font-bold uppercase tracking-widest transition-all hover:bg-[#143a2e] shadow-xl">Load More Projects</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="py-24 bg-[#1b4d3e] text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl lg:text-5xl font-bold mb-8">Let's Create Your Masterpiece</h2>
+            <p class="text-lg text-emerald-100 mb-12 max-w-2xl mx-auto">From high-end residential estates to boutique courtyards, we bring excellence to every square meter.</p>
+            <a href="Contact__desktop.html" class="bg-white text-[#1b4d3e] px-12 py-5 rounded-full text-sm font-bold uppercase tracking-widest transition-all hover:bg-emerald-50 shadow-xl">Start Your Quote</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer" class="pt-20 pb-10 bg-[#0f172a] text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 mb-20">
+                <div class="lg:col-span-1">
+                    <div class="flex items-center gap-2 mb-8">
+                        <i class="fa-solid fa-leaf text-emerald-400 text-2xl"></i>
+                        <span class="text-xl font-bold tracking-tight text-white">LUXE<span class="font-light text-gray-500">LANDSCAPES</span></span>
+                    </div>
+                    <p class="text-gray-400 text-sm leading-relaxed mb-8">Premium landscape design and construction servicing the Perth metropolitan area with a focus on luxury, sustainable outdoor living.</p>
+                    <div class="flex gap-4">
+                        <a href="#" class="w-10 h-10 rounded-full border border-gray-700 flex items-center justify-center text-gray-400 hover:bg-emerald-600 hover:text-white hover:border-emerald-600 transition-all"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="w-10 h-10 rounded-full border border-gray-700 flex items-center justify-center text-gray-400 hover:bg-emerald-600 hover:text-white hover:border-emerald-600 transition-all"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="w-10 h-10 rounded-full border border-gray-700 flex items-center justify-center text-gray-400 hover:bg-emerald-600 hover:text-white hover:border-emerald-600 transition-all"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-sm font-bold uppercase tracking-widest mb-8">Services</h4>
+                    <ul class="space-y-4 text-sm text-gray-400">
+                        <li><a href="#" class="hover:text-emerald-400 transition-all">Landscape Design</a></li>
+                        <li><a href="#" class="hover:text-emerald-400 transition-all">Hardscaping & Paving</a></li>
+                        <li><a href="#" class="hover:text-emerald-400 transition-all">Pool Landscaping</a></li>
+                        <li><a href="#" class="hover:text-emerald-400 transition-all">Planting & Turf</a></li>
+                        <li><a href="#" class="hover:text-emerald-400 transition-all">Retaining Walls</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-sm font-bold uppercase tracking-widest mb-8">Company</h4>
+                    <ul class="space-y-4 text-sm text-gray-400">
+                        <li><a href="About__desktop.html" class="hover:text-emerald-400 transition-all">About Us</a></li>
+                        <li><a href="Portfolio__desktop.html" class="hover:text-emerald-400 transition-all">Our Portfolio</a></li>
+                        <li><a href="Testimonials__desktop.html" class="hover:text-emerald-400 transition-all">Testimonials</a></li>
+                        <li><a href="Contact__desktop.html" class="hover:text-emerald-400 transition-all">Request a Quote</a></li>
+                        <li><a href="#" class="hover:text-emerald-400 transition-all">Service Areas</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-sm font-bold uppercase tracking-widest mb-8">Contact</h4>
+                    <ul class="space-y-4 text-sm text-gray-400">
+                        <li class="flex items-center gap-3"><i class="fa-solid fa-location-dot text-emerald-400"></i> St Georges Terrace, Perth WA 6000</li>
+                        <li class="flex items-center gap-3"><i class="fa-solid fa-phone text-emerald-400"></i> 08 9000 0000</li>
+                        <li class="flex items-center gap-3"><i class="fa-solid fa-envelope text-emerald-400"></i> hello@luxelandscapes.com.au</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] uppercase tracking-widest text-gray-500 font-bold">
+                <p>&copy; 2026 LuxeLandscapes Perth. Built for conversion.</p>
+                <div class="flex gap-8">
+                    <a href="#" class="hover:text-white transition-all">Privacy Policy</a>
+                    <a href="#" class="hover:text-white transition-all">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Sticky Call -->
+    <div class="md:hidden fixed bottom-6 left-1/2 -translate-x-1/2 z-50 flex gap-4 w-full px-6">
+        <a href="tel:0890000000" class="flex-1 bg-[#0f172a] text-white py-4 rounded-full flex items-center justify-center gap-2 font-bold shadow-2xl">
+            <i class="fa-solid fa-phone"></i> Call
+        </a>
+        <a href="https://wa.me/61000000000" class="flex-1 bg-[#25d366] text-white py-4 rounded-full flex items-center justify-center gap-2 font-bold shadow-2xl">
+            <i class="fa-brands fa-whatsapp"></i> Chat
+        </a>
+    </div>
+
+</body>
+</html>
